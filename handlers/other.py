@@ -11,3 +11,4 @@ async def echo_send(message : types.Message):
 
 def register_handlers_other(dp : Dispatcher):
 	dp.register_message_handler(echo_send)
+from 123
